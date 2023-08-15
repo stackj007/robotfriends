@@ -1,10 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import Hello from './Hello'
+import Card from './Card'
 import 'tachyons'
 
 ReactDOM.render(
-  <Hello greeting={'Hello ' + 'React Ninja'} />,
+  <div>
+    <Card />
+    <Card />
+    <Card />
+  </div>,
   document.getElementById('root')
 )
